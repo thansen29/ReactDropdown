@@ -44,7 +44,7 @@ Sample of how calling this might look:
 <DropdownComponent
   initValue={ 'Contact Info' }
   items={ ['Github', 'LinkedIn', 'Portfolio'] }
-  onChange={ this.handleSelection().bind(this) }
+  onChange={ this.handleSelection() }
   replace={ false }
   trigger={ 'hover' }
   classes={ classes } />
