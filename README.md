@@ -41,6 +41,12 @@ to be able to have multiple open at a time, this probably isn't the right tool f
 
 Sample of how calling this might look:
 ```
+const classes = {
+  displayedItem: 'test1',
+  listContent: 'test2',
+  dropdownItem: 'test3'
+}
+
 <DropdownComponent
   initValue={ 'Contact Info' }
   items={ ['Github', 'LinkedIn', 'Portfolio'] }
